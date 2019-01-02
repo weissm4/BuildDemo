@@ -14,7 +14,7 @@ namespace MvcMusicStore.Controllers
 {
     public class HomeController : Controller
     {
-        //
+        // aaaa
         // GET: /Home/ aaaaaaa
 // add some text to trigger the CI build
         MusicStoreEntities storeDB = new MusicStoreEntities();
