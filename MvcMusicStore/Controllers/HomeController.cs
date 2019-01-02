@@ -27,6 +27,7 @@ namespace MvcMusicStore.Controllers
             {
                 var customerCountry = GetCountryFromClient(Request.UserHostAddress);
                 ViewBag.CustomerCountry = customerCountry;
+                // test
             }
 
             return View(albums);
